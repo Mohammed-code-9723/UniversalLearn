@@ -1,0 +1,61 @@
+.StatisticsContainer{
+    margin-top: 30px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.divs{
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.StatisticsDiv{
+    width: 20%;
+    text-align: center;
+    background-image: url('/public/Rectangle\ 8656.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    margin: 10px;
+}
+.StatisticsDiv:nth-child(1){
+    margin-top: -5vh;
+}
+.StatisticsDiv:nth-child(5){
+    margin-top: -5vh;
+}
+.StatisticsLongDiv{
+
+    width: 30%;
+    background-image: url('/public/Rectangle 8759.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:20px ;
+    align-self: baseline;
+    height: 20vh;
+    margin-top: -5vh;
+}
+@media screen and (max-width:833px){
+    .divs{
+        flex-direction: column;
+        height: 55vh;
+        align-items: center;
+    }
+    .StatisticsLongDiv{
+        
+        align-self: center;
+    }
+}

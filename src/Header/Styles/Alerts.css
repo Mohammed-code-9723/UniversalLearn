@@ -1,0 +1,83 @@
+.box {
+    height: 43px;
+    width: 100%;
+    background: linear-gradient(150deg, rgba(2,142,244,1) 0%, rgba(4,203,167,1) 100%);
+    position: relative;
+  }
+
+  .group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px; 
+  }
+  
+  .left-section,
+  .center-section,
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone,
+  .email,
+  .fax {
+    height: 28px;
+    width: 30px;
+  }
+  
+  .text-wrapper,
+  .text-wrapper-2 {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-left: 10px;
+  }
+  
+  .div {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+    white-space: nowrap;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .mode{
+    position: absolute;
+    right: 10px;
+  }
+    .box{
+      height:150px;
+    }
+    .group {
+      flex-direction: column; /* Change to a column layout on smaller screens */
+      align-items: center;
+      
+    }
+    .left-section{
+      margin-left:-10% ;
+    }
+    .center-section{
+      margin-left:-3% ;
+    }
+    .left-section,
+    .center-section,
+    .right-section {
+      margin-bottom: 15px; /* Add some space between sections in a column layout */
+    }
+  
+    .phone,
+    .email,
+    .fax {
+      height: 24px; /* Adjust image height for smaller screens */
+      width: 26px; /* Adjust image width for smaller screens */
+    }
+  
+    
+  }

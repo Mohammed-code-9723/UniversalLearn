@@ -1,0 +1,8 @@
+.titleSection{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+img[alt="line"]{
+    width: 33%;
+}

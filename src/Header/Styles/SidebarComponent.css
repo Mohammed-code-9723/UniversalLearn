@@ -1,0 +1,57 @@
+.sidebarSection{
+    display: none;
+    /* background: rgba(117, 117, 117, 0.063); */
+}
+@media screen and (max-width: 721px){
+    .sidebarSection{
+        display: inline;
+        margin-right: 10px;
+    }
+}
+.sidebarAccountButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+}
+.sidebarAccountButtons .SidebarButtons{
+    border-radius: 20px;
+    font-family:'Koho';
+    background: linear-gradient(150deg, rgba(4,180,255,1) 0%, rgba(18,239,199,1) 100%);
+    width: 90px;
+    min-width: 90px;
+}
+.navLinkComponentSide{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    color:rgb(57, 57, 57);
+    text-decoration: none;
+    transition: 0.8s;
+}
+.active{
+    background: linear-gradient(150deg, rgba(4,180,255,1) 0%, rgba(18,239,199,1) 100%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    border-bottom: 3px solid rgba(4,180,255,1) ;
+}
+.navLinkComponentSide:hover .IconsSide{
+    color:rgb(3, 255, 200);
+}
+.IconsSide{
+    transition: 0.8s;
+    color:rgb(7, 134, 138);
+}
+/* .zec{
+    color: rgba(144, 143, 142, 0.16);
+    backdrop-filter: blur(50px);
+}  */
+#searchIcon{
+    margin-left: -21px;
+    border-radius: 50%;
+    height: 29px;
+    width: 30px;
+}

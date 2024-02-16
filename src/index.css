@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Koho';
+  src: url('../public/KoHo/KoHo-SemiBold.ttf');
+}
+*{
+  font-family: 'Koho';
+}
+body {
+  overflow-x: hidden;
+  background:linear-gradient(143deg, rgba(210,210,210,1) 0%, rgba(198,196,196,1) 27%, rgba(255,255,255,1) 46%, rgba(212,214,214,1) 66%, rgba(208,209,209,1) 80%, rgba(210,210,210,1) 100%);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
